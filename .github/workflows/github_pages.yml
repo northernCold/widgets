@@ -19,7 +19,6 @@ jobs:
       - name: Install and Run Node Script
         run: |
           npm install
-          node ./src/build.js
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
